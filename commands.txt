@@ -7,7 +7,7 @@ git init
 git add .
 git commit -m "Init flask app"
 
-#Check the 
+#Check the publishing repository github link
 (env) PS D:\Python_projects\FlaskProduction> git remote -v
 origin  https://github.com/ipkakiu/flaskapp_todo_list (fetch)
 origin  https://github.com/ipkakiu/flaskapp_todo_list (push)
@@ -15,3 +15,8 @@ git remote add origin https://github.com/ipkakiu/flaskapp_todo_list
 
 need to create repository on github.com if using git init instead of directly publishing the folder to github
 
+#Check branch status
+git status
+
+#Push folder to github repository (Need to login or enter password)
+git push -u -f origin master
