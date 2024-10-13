@@ -6,3 +6,7 @@ pip3 freeze > requirements.txt
 git init
 git add .
 git commit -m "Init flask app"
+(env) PS D:\Python_projects\FlaskProduction> git remote -v
+origin  https://github.com/ipkakiu/flaskapp_todo_list (fetch)
+origin  https://github.com/ipkakiu/flaskapp_todo_list (push)
+git remote add origin https://github.com/ipkakiu/flaskapp_todo_list
