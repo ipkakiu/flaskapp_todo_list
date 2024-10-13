@@ -1,0 +1,8 @@
+pip install virtualenv
+virtualenv env
+env\Scripts\activate
+pip install gunicorn
+pip3 freeze > requirements.txt
+git init
+git add .
+git commit -m "Init flask app"
